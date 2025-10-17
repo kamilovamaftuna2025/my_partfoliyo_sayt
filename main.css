@@ -121,6 +121,17 @@ header a:hover {
   box-shadow: 2px 2px 8px 7px rgba(255, 109, 24, 0.932);
 }
 
+.container3 h4{
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inputs{
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 2s;
+}
 
 @media (max-width: 768px) {
   header {
