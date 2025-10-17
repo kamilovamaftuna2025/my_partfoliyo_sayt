@@ -25,6 +25,10 @@ header {
 header h2 {
   color: rgba(255, 109, 24, 0.932);
   margin-left: 10%;
+
+}
+header h2:hover{
+  box-shadow: 2px 3px 5px 2px rgba(255, 109, 24, 0.932);
 }
 
 header section {
@@ -78,6 +82,11 @@ header a:hover {
   flex-wrap: wrap;
   gap: 30px;
   transition: all 2s;
+  background: #000;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  padding: 100px;
 }
 
 .container2 img {
@@ -107,6 +116,8 @@ header a:hover {
 .container2 button:hover {
   transition: all 0.5s;
   border-color: rgba(255, 109, 24, 0.932);
+  background-color: #fff;
+  color: rgba(255, 109, 24, 0.932);
   box-shadow: 2px 2px 8px 7px rgba(255, 109, 24, 0.932);
 }
 
