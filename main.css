@@ -1,3 +1,7 @@
+/* body{
+  height: 1000px;
+} */
+
 .container1 {
   max-width: 100%;
   margin-left: auto;
@@ -9,14 +13,13 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  max-width: 100%;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.87);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000;
+
 }
 
 header h2 {
@@ -45,9 +48,9 @@ header button {
   margin-top: auto;
   margin-bottom: auto;
   border-radius: 10px;
-  background-color: rgba(255, 109, 24, 0.932);
+  background-color: #fff;
   border-color: rgba(255, 109, 24, 0.932);
-  color: #fff;
+  color: rgba(255, 109, 24, 0.932);
   font-weight: 700;
   cursor: pointer;
   box-shadow: 2px 1px 5px rgba(255, 109, 24, 0.932);
@@ -55,6 +58,8 @@ header button {
 
 header button:hover {
   transition: all 0.5s;
+  color: #fff;
+  background-color: rgba(255, 109, 24, 0.932);
   border-color: rgba(255, 109, 24, 0.932);
   box-shadow: 2px 2px 8px 7px rgba(255, 109, 24, 0.932);
 }
