@@ -1,17 +1,7 @@
-let oldScroll = 0;
-const header = document.querySelector("header"); 
 
-window.addEventListener("scroll", () => {
-  const currentScroll = window.pageYOffset;
+const menuToggle = document.getElementById("menuToggle");
+const nav = document.getElementById("navbar");
 
-
-  if (currentScroll > oldScroll) {
-    header.style.top = "-100px"; 
-  } 
-
-  else {
-    header.style.top = "0"; 
-  }
-
-  oldScroll = currentScroll;
+menuToggle.addEventListener("click", () => {
+  nav.classList.toggle("active");
 });

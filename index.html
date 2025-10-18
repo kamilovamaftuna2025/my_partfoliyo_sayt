@@ -1,55 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfoliyo sayt</title>
-    <link rel="stylesheet" href="./main.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maftuna — Portfolio</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="container1">
-        <header>
-            <h2>Maftuna</h2>
-            <section>
-                <a href="#">About</a>
-                <a href="#">About</a>
-                <a href="#">About</a>
-                <a href="#">About</a>
-                <a href="#">About</a>
-                
-                
-                
-            </section>
-            <button>Contact us</button>
-        </header>
+  <header>
+    <h2 class="logo">Maftuna</h2>
+    <nav id="navbar">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="contact-btn">Hire Me</button>
+    <div class="menu-icon" id="menuToggle">☰</div>
+  </header>
 
-     
+  <section class="hero" id="about">
+    <div class="hero-text">
+      <h1>Salom, men <span>Maftuna</span></h1>
+      <h3>Frontend Developer</h3>
+      <p>Men zamonaviy, foydalanuvchi uchun qulay va chiroyli veb-saytlar ishlab chiqaman.
+         HTML, CSS, JS texnologiyalari va responsive dizayn bilan ishlayman.</p>
+      <button class="btn">Ko‘rish</button>
     </div>
-    <div class="container2">
-        <div class="img">
-            <img src="" alt="">
-        </div>
-        <div class="about_me">
-            <h2>About Me</h2>
-            <h1>Frontent Devoloper</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia <br> rem aperiam expedita dicta, reprehenderit voluptates aspernatur <br> illum nostrum veritatis quasi ad facere reiciendis natus hic deleniti ducimus, earum optio <br>libero eius nesciunt atque . Nesciunt, porro temporibus eaque et repellendus <br> impedit perspiciatis facere enim expedita quidem a delectus voluptates atque minus?</p>
-            <button>Experince</button>
-        </div>
+    <div class="hero-img">
+      <img src="./img/image.png" alt="Profile">
     </div>
-    <div class="container3">
-        <h3>Contact Me</h3>
-     <div class="inputs">
+  </section>
+
+  <section class="contact" id="contact">
+    <h3>Contact Me</h3>
+    <form class="contact-form">
       <input type="text" placeholder="Full name">
-       <input type="text" placeholder="Email">
-       <input type="text" placeholder="Full number">
-       <input type="text" placeholder="Subject">
-       <textarea name="Write message" id="" placeholder="Write message"></textarea>
-         </div>
-    </div>
+      <input type="email" placeholder="Email">
+      <input type="text" placeholder="Phone number">
+      <textarea placeholder="Your message"></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
 
+  <footer>
+    <p>© 2025 Maftuna. All rights reserved.</p>
+  </footer>
 
-
-    <script src="./app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
