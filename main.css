@@ -11,7 +11,7 @@ body {
   scroll-behavior: smooth;
 }
 
-/* HEADER */
+
 header {
   position: fixed;
   top: 0;
@@ -63,7 +63,7 @@ nav a:hover {
   color: #fff;
 }
 
-/* MENU ICON */
+
 .menu-icon {
   display: none;
   font-size: 28px;
@@ -71,7 +71,7 @@ nav a:hover {
   cursor: pointer;
 }
 
-/* HERO */
+
 .hero {
   display: flex;
   justify-content: space-between;
@@ -131,7 +131,7 @@ nav a:hover {
   color: rgba(255, 109, 24, 0.9);
 }
 
-/* CONTACT */
+
 .contact {
   padding: 80px 10%;
   background: #0b0b0b;
@@ -166,7 +166,6 @@ nav a:hover {
   resize: none;
 }
 
-/* FOOTER */
 footer {
   text-align: center;
   padding: 20px;
@@ -174,7 +173,7 @@ footer {
   color: #888;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 992px) {
   header {
     padding: 15px 8%;
